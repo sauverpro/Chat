@@ -1,0 +1,21 @@
+{
+  "name": "chat",
+  "description": "Real time chat with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mysql2": "^3.2.0",
+    "qs": "^6.11.1",
+    "sequelize": "^6.29.3",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
